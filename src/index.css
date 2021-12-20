@@ -1,0 +1,16 @@
+:root{
+  font-size: 10px;
+}
+
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #444;
+}
+
+button{
+  padding: .8rem 1.6rem;
+  display: block;
+}

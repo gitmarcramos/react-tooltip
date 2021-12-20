@@ -1,0 +1,16 @@
+.tooltip {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tooltip-main {
+        padding: .8rem 1.6rem;
+        background-color: #444;
+        color: white;
+        border-radius: .4rem;
+        position: absolute;
+        white-space: nowrap;
+    }
+}
