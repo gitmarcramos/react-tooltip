@@ -18,6 +18,26 @@
   color: white;
   border-radius: .4rem;
   position: absolute;
-  white-space: nowrap;
+  min-width: 50px;
+  max-width: 30ch;
+  text-align: center;
+  line-height: 140%;
+  z-index: 1000;
+}
+
+.tooltip .tooltip-main::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #444;
+}
+
+.tooltip-hidden {
+  display: none;
 }
 /*# sourceMappingURL=Tooltip.css.map */
