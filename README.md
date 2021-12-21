@@ -1,1 +1,37 @@
-# react-tooltip
+# **React Tooltip** ✅
+
+<code>React tooltip</code> is a React.JS Component that brings usefull UX and UI information in elements of your website.
+
+# **Installation** ⌨️
+
+React Tooltip uses hooks, so you need to import the useState() hook to make it work.
+
+```javascript
+import {useState} from "react"
+```
+
+# **How to use**   🖥
+The component can be configured with 3 entries (props): "content", "position" and "type", each one being a string. 
+- the **<code>content</code>** accepts any string values and represents the text displayed on the tooltip;
+- the **<code>position</code>** accepts any string values and represents the"top" or "bottom" and  sets if the tooltip will appear at the top or the bottom of the element;
+- the **<code>type</code>** accepts any string values and represents"input" or any other string and defines if the element is an input or any other element. In case of an "input", the tooltip will appear when the focus is on the input. 
+
+
+```javascript
+<Tooltip content="This is what is gonna be displayed" postion="top" type"input">
+   <div>Foo</>
+</Tooltip>
+```
+
+# **What's next? (Features roadmap)**
+This beta version of React Tooltip works localy, and haven't been tested in production yet. \
+
+## What's to improve: 
+- possibilty of positionning the tooltip on the left or right of the element;
+- displaying the tooltip arrow depending of the tooltip's position (appears only at the bottom now);
+- adding CSS transitions to the tooltip 
+
+# **Author** 🧔🏽‍♂️
+[Marc Ramos](https://github.com/gitmarcramos) 
+
+

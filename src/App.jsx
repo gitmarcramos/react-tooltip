@@ -1,6 +1,6 @@
 import "./app.css";
 import Tooltip from "./Components/Tooltip/Tooltip";
-import SVG from "./../src/infos.svg";
+import SVG from "./Components/Tooltip/infos.svg";
 
 function App() {
   return (
