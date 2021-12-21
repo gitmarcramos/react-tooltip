@@ -13,9 +13,8 @@ import {useState} from "react"
 # **How to use**   🖥
 The component can be configured with 3 entries (props): "content", "position" and "type", each one being a string. 
 - the **<code>content</code>** accepts any string values and represents the text displayed on the tooltip;
-- the **<code>position</code>** accepts any string values and represents the"top" or "bottom" and  sets if the tooltip will appear at the top or the bottom of the element;
-- the **<code>type</code>** accepts any string values and represents"input" or any other string and defines if the element is an input or any other element. In case of an "input", the tooltip will appear when the focus is on the input. 
-
+- the **<code>position</code>** accepts "top" or "bottom" values, to set the tooltip relatively to the element;
+- the **<code>type</code>** accepts "input" for value, if you want the tooltip to appear when the focus is on an input. With any other string or no value, the tooltip will appear on hover.
 
 ```javascript
 <Tooltip content="This is what is gonna be displayed" postion="top" type="input">
