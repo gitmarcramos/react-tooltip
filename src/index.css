@@ -1,8 +1,10 @@
-:root{
+:root {
   font-size: 10px;
 }
 
-*, ::before, ::after{
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +12,16 @@
   color: #444;
 }
 
-button{
+body {
+  background: #D3CCE3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
   padding: .8rem 1.6rem;
   display: block;
 }

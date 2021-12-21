@@ -11,8 +11,10 @@
     .main-container {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 1rem;
         padding: 2rem;
+        height:90vh;
 
         .container {
             border-radius: .8rem;
@@ -22,7 +24,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: .8rem
+            padding: .8rem;
+            background-color: #fff;
         }
 
         .input-wrapper {
