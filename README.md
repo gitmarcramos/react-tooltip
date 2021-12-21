@@ -18,7 +18,7 @@ The component can be configured with 3 entries (props): "content", "position" an
 
 
 ```javascript
-<Tooltip content="This is what is gonna be displayed" postion="top" type"input">
+<Tooltip content="This is what is gonna be displayed" postion="top" type="input">
    <div>Foo</>
 </Tooltip>
 ```
