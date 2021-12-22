@@ -17,8 +17,8 @@ The component can be configured with 3 entries (props): "content", "position" an
 - the **<code>type</code>** accepts "input" for value, if you want the tooltip to appear when the focus is on an input. With any other string or no value, the tooltip will appear on hover.
 
 ```javascript
-<Tooltip content="This is what is gonna be displayed" postion="top" type="input">
-   <div>Foo<div/>
+<Tooltip content="This is what is gonna be displayed" postion="top" type="button">
+   <button>Hover me!</button>
 </Tooltip>
 ```
 
